@@ -14,8 +14,8 @@ a=0
 
 
 while True:
-self.driver = webdriver.Chrome()
-self.driver.implicitly_wait(30)
-self.driver.get("http://example.com")
-button = driver.find_element_by_id('buttonID')
-button.click()
+ self.driver = webdriver.Chrome()
+ self.driver.implicitly_wait(30)
+ self.driver.get("http://example.com")
+ button = driver.find_element_by_id('buttonID')
+ button.click()
